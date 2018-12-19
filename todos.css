@@ -1,7 +1,11 @@
-body{
-    background: orange;
-}
-
 #special{
     border: 1px solid red;
+}
+
+li{
+    border: 1px solid yellow;
+}
+
+.completed{
+    text-decoration: line-through;
 }

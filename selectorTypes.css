@@ -1,0 +1,38 @@
+/*Element*/
+li{
+
+}
+/*class*/
+.hello{
+
+}
+/*id*/
+#name{
+
+}
+/*star*/
+*{
+    /*selects everything on the page*/
+}
+
+/*Descendant Selector*/
+
+li a {
+    /*selects every anchor tag inside an li*/
+}
+
+/*Adjacent Selector*/
+
+h4 + ul{
+    /*uls that are adjacent to a h4*/
+}
+
+/*Attribute Selector*/
+a[href="google.com"]{
+    /*all anchors with a link to google*/
+}
+
+/*nth of type*/
+ul:nth-of-type(3){
+    /*selects every third ul*/
+}
