@@ -15,6 +15,10 @@ app.get("/dog",function(req, res){
     res.send("MEOW!");
 })
 
+app.get("*", function(req, res){
+    res.send("you are a star");
+});
+
 //Tell express to listen for requests (start server)
 
 app.listen(3000,function(){
